@@ -223,7 +223,7 @@ class MauticConnector {
 
         // noinspection JSUnusedGlobalSymbols
         this.campaigns = {
-            createCampaign: queryParameters => this._callApi({method: 'POST', url: this._makeUrl('/campaigns/new/' + queryParameters)}),
+            createCampaign: queryParameters => this._callApi({method: 'POST', url: this._makeUrl('/campaigns/new'), body: JSON.stringify(queryParameters)}),
             getCampaign: campaignId => this._callApi({method: 'GET', url: this._makeUrl('/campaigns/' + campaignId)}),
             listCampaigns: queryParameters => this._callApi({method: 'GET', url: this._makeUrl('/campaigns', queryParameters)}),
             listCampaignContacts: campaignId => this._callApi({method: 'GET', url: this._makeUrl('/campaigns/' + campaignId + '/contacts')}),
