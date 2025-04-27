@@ -1,4 +1,7 @@
 # node-mautic-bradzo
+
+forked from https://github.com/vdavid/node-mautic
+
 A Node.js Mautic API implemented with ES6 + async/await.
 
 Tested with Node 14 and Mautic 3.1.2.
