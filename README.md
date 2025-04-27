@@ -1,4 +1,4 @@
-# node-mautic
+# node-mautic-bradzo
 A Node.js Mautic API implemented with ES6 + async/await.
 
 Tested with Node 14 and Mautic 3.1.2.
@@ -49,6 +49,7 @@ $ npm install node-mautic
 
  - uses basic authentication
  - has methods for all ~200 documented API endpoints
+ - April 2025 - added createCampaign 
  - has less than 400 lines of code
  - uses async/await (no callback hell) 
  - some documentation
