@@ -20,7 +20,8 @@
     "class",
     "library"
   ],
-  "author": "David Veszelovszki",
+  "author_orig": "David Veszelovszki",
+  "author": "Brad Thomas",
   "license": "Apache-2.0",
   "dependencies": {
     "node-fetch": "^2.6.1"
@@ -30,8 +31,11 @@
     "jest": "^27.3.1"
   },
   "bugs": {
-    "url": "https://github.com/vdavid/node-mautic/issues"
+    "url_orig": "https://github.com/vdavid/node-mautic/issues",
+    "url": "https://github.com/bradzo/node-mautic-bradzo/issues"
   },
-  "homepage": "https://github.com/vdavid/node-mautic#readme",
+  "homepage_orig": "https://github.com/vdavid/node-mautic#readme",
+  "homepage": "https://github.com/bradzo/node-mautic-bradzo#readme",
+  
   "types": "index.d.ts"
 }
