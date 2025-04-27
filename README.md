@@ -6,6 +6,8 @@ Tested with Node 14 and Mautic 3.1.2.
 
 This package has only 1 dependency ([node-fetch](https://github.com/node-fetch/node-fetch)), which has 0 dependencies.
 
+UPDATE APRIL 2025 - add support for creating Campaign
+
 ## Installation
 
 ```bash
